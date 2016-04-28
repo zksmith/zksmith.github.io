@@ -19,7 +19,9 @@ body{
   border-color: #05699a;
   color: #05699a;
 }
-
+a{
+  color: white;
+}
 .quote {
   font-size: 3.5em;
   color: #05699a;
