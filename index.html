@@ -2,32 +2,77 @@
 <html>
 	<head>
 		<meta charset="UTF-8"/>
-		<title>Advice Generator</title>
-		<link rel="stylesheet" type="text/css" href="advice.css">
-		<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-<!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+		 <title>Zahier Smith</title>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Oswald">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
 
-<!-- Latest compiled JavaScript -->
-<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-<script src="advice.js"></script>
-	</head>
-	<body>
-		<div class="box">
-  <div class="quote">
-  </div>
-  <div class="quote-btn">
-    <button id="getMessage" class="btn btn-primary">
-        Generate Advice
-      </button>
-    <button id="tweetMessage" class="btn btn-primary">
-    <a class="twitter-share-button"
-       href="https://twitter.com/intent/tweet"target="_blank">  <i class = "fa fa-twitter">Tweet Advice</i></a>
-      </button>
-  </div>
-</div>
-<footer id="footer">Advice Generator. Made by Zahier Smith</footer>
-	</body>
+<body>
+    <!-- Navbar -->
+    <div class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a href="#home" class="navbar-brand">
+          ZAHIER SMITH
+        </a>
+
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">   
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+            </div>
+
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+                <ul class="nav nav-pills navbar-nav">
+                    <li><a href="#home" id="projects-section-link">Home</a></li>
+                    <li><a href="#projects" id="projects-section-link">Projects</a></li>
+                    <li><a href="#contact" id="contact-section-link">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Home -->
+    <section class="first-section" id="home">
+        <div class="first-content">
+            <h1 class=section-header> ZAHIER SMITH </h1>
+            <h4> Front-end web developer.</h4>
+        </div>
+    </section>
+    <!-- Projects -->
+    <section class="second-section" id="projects">
+        <div class="second-content">
+            <h1 class=section-header> PROJECTS </h1>
+            <div class="col-md-3 col-centered">
+        <img src="advice.png" />
+      </div>
+      <div class="col-md-3 col-centered">
+        <img src="calculator.png" />
+      </div>
+      <div class="col-md-3 col-centered">
+        <img src="clock.png" />
+      </div>
+    </div>
+        </div>
+    </section>
+    <!-- Contact -->
+    <section class="third-section" id="contact">
+        <div class="third-content">
+            <h1 class="section-header third-header">CONTACT ME</h1>
+            <a class="email" href="mailto:zksmit8576@ung.edu">ZKSMIT8576@UNG.EDU</a>
+            <div class="social-icons">
+            <i class="fa fa-github fa-5x"></i>
+            <i class="fa fa-twitter fa-5x"></i>
+            <i class="fa fa-linkedin fa-5x"></i>
+            <i class="fa fa-instagram fa-5x"></i> 
+            </div>
+        </div>
+    </section>
+</body>
+
 </html>
