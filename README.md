@@ -1,2 +1,2 @@
 # itsBosco.github.io
-Advice Generator
+Web Site
