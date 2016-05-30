@@ -10,7 +10,9 @@ body {
 }
 
 .first-section {
-    background: url("https://static.pexels.com/photos/96858/pexels-photo-96858.jpeg") fixed center  no-repeat;
+    background-image: url("firstpic.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: 100% 100%;
     width: 100%;
     height: 1000px;
@@ -19,7 +21,7 @@ body {
 
 .second-section {
     width: 100%;
-    height: 900px;
+    height: 800px;
     text-align: center;
 }
 
@@ -38,8 +40,8 @@ body {
 
 
 .first-header {
-    color: #f6f6f6;
-    text-shadow: 1px 1px 5px #555;
+    color: #126ace;
+    text-shadow: 1px 1px 3px #555;
  }
 
 
@@ -57,8 +59,24 @@ body {
   
     }
     
+ footer {
+     color: #d2d2d2;
+ }   
+    
+ .social-icons{
+     color: #126ace;
+ }   
+ 
+ a {
+     color: inherit;
+ }
+    
 .third-header {
     margin: 0px 0px 100px 0px;
+}
+
+.firstn {
+    color: #126ace;
 }
 
 .second-section img{
