@@ -60,7 +60,9 @@ body {
     }
     
  footer {
-     color: #d2d2d2;
+     color: #999;
+     position:fixed;
+    bottom:0;
  }   
     
  .social-icons{
