@@ -1,2 +1,2 @@
 # itsBosco.github.io
-zahiersmith.com
+www.zahiersmith.com
