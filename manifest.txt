@@ -1,7 +1,0 @@
-CACHE MANIFEST
-#7-20-2016
-
-/css
-/img
-/js
-/img
