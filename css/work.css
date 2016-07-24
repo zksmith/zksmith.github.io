@@ -7,6 +7,9 @@ h1{
     font-family: "Concert One";
     color: #6062d4;
 }
+img{
+    margin-top: 20px;
+}
 .work-section {
     color: #333;
     text-align: center;
