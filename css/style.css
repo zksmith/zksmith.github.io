@@ -117,6 +117,10 @@ nav li {
 input[type="email"]:focus, textarea:focus {
     border-color: #6062d4;
 }
+footer {
+    color: #777;
+    text-align: center;
+}
 
 .thanks-box {
     position: absolute;
