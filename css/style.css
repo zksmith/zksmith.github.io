@@ -7,7 +7,7 @@ a{
     z-index: 999;
 }
 .main-section {
-    background: url("../img/banner.png");
+    background: url("../../img/banner.png");
     background-repeat: no-repeat;
     background-size: cover; 
     width: 100%;
@@ -132,5 +132,19 @@ input[type="email"]:focus, textarea:focus {
     font-size: 2em;
     margin: -200px 0 0 -150px;
 }
-
+@media screen and (max-width: 884px){
+    .one-half.column{
+        width: 70%;
+    }
+}
+@media screen and (max-width: 758px){
+    .one-half.column{
+        width: 75%;
+    }
+}
+@media screen and (max-width: 466px){
+    .header p{
+    display: none;
+}
+}
 
