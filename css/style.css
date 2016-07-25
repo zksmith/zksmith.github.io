@@ -58,7 +58,22 @@ nav li {
     font-family: "Concert One";
     font-size: 7em;
 }
+#slide {
+    position: absolute;
+    left: -10000px;
+    -webkit-animation: slide 0.5s forwards;
+    -webkit-animation-delay: 0s;
+    animation: slide 0.5s forwards;
+    animation-delay: 0s;
+}
 
+@-webkit-keyframes slide {
+    100% { left: 0; }
+}
+
+@keyframes slide {
+    100% { left: 0; }
+}
 .work-section {
     color: #333;
     text-align: center;
@@ -87,7 +102,7 @@ nav li {
     background: #6062d4;
     color: #fff;
     margin: 0;
-
+    padding-top: 50px;
     visibility: hidden;
     opacity: 0;
     color: #fff;
@@ -147,8 +162,16 @@ footer {
     }
 }
 @media screen and (max-width: 466px){
+    .one-half.column{
+    width: 80%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
     .header p{
     display: none;
+}
+.header h1{
+    text-align: center; 
 }
 }
 
