@@ -1,6 +1,9 @@
+$white: #fbfbfb;
+$main-color: #6062d4;
+
 body,html {
-    background-color: #fbfbfb;
-    color: #fbfbfb;
+    background-color: $white;
+    color: $white;
     height: 100%;
 }
 a{
@@ -9,7 +12,7 @@ a{
 .main-section {
     background: url("../../img/banner.png");
     background-repeat: no-repeat;
-    background-size: cover; 
+    background-size: cover;
     width: 100%;
     height: 55%;
     display: table;
@@ -17,26 +20,22 @@ a{
 
 nav{
     padding-top: 10px;
-}
-
-nav ul {
-    list-style: none;
-}
-
-li img{
-    width: 40px;
-    height: 40px;
-}
-
-nav a,nav a:hover,nav a:active,nav a:visited{
+	ul {
+		list-style: none;
+	}
+    li {
+        display: inline;
+        padding-left: 10px;
+        color: $white;
+        img {
+            width: 40px;
+            height: 40px;
+        }
+    }
+    a,a:hover,a:active,a:visited{
     color:#fbfbfb;
 }
-
-nav li {
-    display: inline;
-    padding-left: 10px;
 }
-
 .links{
     float: right;
 }
@@ -49,14 +48,14 @@ nav li {
     display: block;
     width: 400px;
     margin-left: 10%;
-}
-.header p{
-    font-size: 2em;
-    display: inline-block;
-}
-.header h1{
-    font-family: "Concert One";
-    font-size: 7em;
+	p {
+		font-size: 2em;
+		display: inline-block;
+	}
+	h1 {
+		font-family: "Concert One";
+		font-size: 7em;
+	}
 }
 #slide {
     position: absolute;
@@ -77,15 +76,14 @@ nav li {
 .work-section {
     color: #333;
     text-align: center;
-}
-.work-section row {
-    width: 100%;
-    height: 100%;
-}
-
-.work-section img{
-    width: 100%;
-    display: block;
+	row {
+		width: 100%;
+		height: 100%;
+	}
+	img {
+		width: 100%;
+		display: block;
+	}
 }
 .imgWrap {
     position: relative;
@@ -100,18 +98,17 @@ nav li {
     left: 0;
     right: 0;
     background: rgba(22,0,45, .7);
-    color: #fff;
+    color: $white;
     margin: 0;
     padding-top: 50px;
     visibility: hidden;
     opacity: 0;
-    color: #fff;
+    color: $white;
     font-weight: bold;
     letter-spacing: .04rem;
-}
-
-.imgDescription h4{
-    letter-spacing: .09rem;
+	h4 {
+		letter-spacing: .09rem;
+	}
 }
 
 .imgWrap:hover .imgDescription {
@@ -122,20 +119,17 @@ nav li {
 
 .button, input[type="submit"] {
     margin-top: 20px;
-    color: #6062d4;
-    border-color: #6062d4;
+    color: $main-color;
+    border-color: $main-color;
 }
-
-.form-section{   
+.form-section{
     color: #333;
+	h3 {
+	text-align: center;
+	}
 }
-
-.form-section h3{
-    text-align: center;
-}
-
 input[type="email"]:focus, textarea:focus {
-    border-color: #6062d4;
+    border-color: $main-color;
 }
 footer {
     color: #777;
@@ -172,11 +166,13 @@ footer {
     margin-top: 10%;
     margin-bottom: 5%;
 }
-    .header p{
-    display: none;
-}
-.header h1{
-    text-align: center; 
-}
-}
+    .header{
+	p{
+		display: none;
+	}
+	h1 {
+		text-align: center;
+	}
 
+}
+}
