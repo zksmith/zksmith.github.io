@@ -33,7 +33,7 @@ nav{
         }
     }
     a,a:hover,a:active,a:visited{
-    color:#fbfbfb;
+    color:$white;
 }
 }
 .links{
@@ -76,11 +76,8 @@ nav{
 .work-section {
     color: #333;
     text-align: center;
-	row {
-		width: 100%;
-		height: 100%;
-	}
 	img {
+        margin-top: 10px;
 		width: 100%;
 		display: block;
 	}
@@ -105,10 +102,18 @@ nav{
     opacity: 0;
     color: $white;
     font-weight: bold;
-    letter-spacing: .04rem;
+    letter-spacing: .06rem;
 	h4 {
 		letter-spacing: .09rem;
 	}
+    a,a:hover,a:active,a:visited{
+    color:$white;
+}
+a.button {
+    margin-top: 0;
+    color: $main-color;
+    background-color: $white;
+}
 }
 
 .imgWrap:hover .imgDescription {
