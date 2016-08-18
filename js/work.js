@@ -14,13 +14,13 @@ var projects = {
         "link": "http://zahiersmith.com",
         "alt": "Fully responsive portfolio site"
     }, {
-        "name": "Old Website",
-        "description": "A previous version of this site",
-        "image": "img/item1.png",
-        "github": "https://github.com/itsBosco/old-website-2",
-        "link": "http://www.zahiersmith.com/old-website-2",
-        "alt": "Portfolio site"
-    }, ],
+        "name": "Event Planner",
+        "description": "Project built to practice front-end form validation and learn Angular.",
+        "image": "img/event.png",
+        "github": "https://github.com/itsBosco/event-planner",
+        "link": "#",
+        "alt": "Event Planner"
+    }],
     "projects2": [{
         "name": "Tic-Tac-Toe",
         "description": "The classic game built using JavaScript/jQuery",
@@ -35,7 +35,14 @@ var projects = {
         "github": "https://github.com/itsBosco/old-website-1",
         "link": "http://www.zahiersmith.com/old-website-1",
         "alt": "Portfolio site"
-    }, ]
+    }, {
+        "name": "Old Website",
+        "description": "A previous version of this site",
+        "image": "img/item1.png",
+        "github": "https://github.com/itsBosco/old-website-2",
+        "link": "http://www.zahiersmith.com/old-website-2",
+        "alt": "Portfolio site"
+    }]
 };
 
 $(document).ready(function() {
@@ -46,7 +53,7 @@ $(document).ready(function() {
                 '" target="_blank"><i class="fa fa-github fa-2x"></i></a>' +
                 '<h4>' + project.name + '</h4><p>' + project.description +
                 '</p><a class="button" href="' +
-                project.link + '" target="_blank">Live Demo</a></div></div></div>');
+                project.link + '"">Live Demo</a></div></div></div>');
         });
         projects.projects2.forEach(function(project2) {
             $(".work-row2").append('<div class="four columns"><a href="' +
@@ -55,7 +62,7 @@ $(document).ready(function() {
                 '" target="_blank"><i class="fa fa-github fa-2x"></i></a>' +
                 '<h4>' + project2.name + '</h4><p>' + project2.description +
                 '</p><a class="button" href="' +
-                project2.link + '" target="_blank">Live Demo</a></div></div></div></a>');
+                project2.link + '">Live Demo</a></div></div></div></a>');
         });
     };
     projects.display();
