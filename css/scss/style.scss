@@ -116,7 +116,7 @@ a.button {
 }
 }
 
-.imgWrap:hover .imgDescription {
+.imgWrap:hover .imgDescription, .imgWrap:focus .imgDescription {
     transition: .3s;
     visibility: visible;
     opacity: 1;
