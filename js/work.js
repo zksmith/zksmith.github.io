@@ -7,12 +7,12 @@ var projects = {
         "link": "http://www.zahiersmith.com/neighborhood-map",
         "alt": "Neighborhood map project"
     }, {
-        "name": "This Website!",
-        "description": "The newest verion of zahiersmith.com",
-        "image": "img/item3.png",
-        "github": "https://github.com/itsBosco/itsBosco.github.io",
-        "link": "http://zahiersmith.com",
-        "alt": "Fully responsive portfolio site"
+        "name": "Restaurant Reviews",
+        "description": "Restaurant reviewer app built using angularjs. Purpose of this project was to learn how to make a fully accessable site.",
+        "image": "img/review.png",
+        "github": "https://github.com/itsBosco/restaurant-reviews",
+        "link": "#",
+        "alt": "Restaurant Review Website"
     }, {
         "name": "Event Planner",
         "description": "Project built to practice front-end form validation and learn Angular.",
@@ -22,6 +22,29 @@ var projects = {
         "alt": "Event Planner"
     }],
     "projects2": [{
+        "name": "Twitch Featured Streams",
+        "description": "Simple project build to learn more about the Twitch API.",
+        "image": "img/twitch.png",
+        "github": "https://github.com/itsBosco/twitch-featured",
+        "link": "http://zahiersmith.com/twitch-featured/",
+        "alt": "Featured Twitch Streams"
+
+    }, {
+        "name": "This Website!",
+        "description": "The newest verion of zahiersmith.com",
+        "image": "img/item3.png",
+        "github": "https://github.com/itsBosco/itsBosco.github.io",
+        "link": "http://zahiersmith.com",
+        "alt": "Fully responsive portfolio site"
+    }, {
+        "name": "Old Website",
+        "description": "A previous version of this site",
+        "image": "img/item1.png",
+        "github": "https://github.com/itsBosco/old-website-2",
+        "link": "http://www.zahiersmith.com/old-website-2",
+        "alt": "Portfolio site"
+    }],
+    "projects3": [{
         "name": "Tic-Tac-Toe",
         "description": "The classic game built using JavaScript/jQuery",
         "image": "img/tictac.png",
@@ -34,13 +57,6 @@ var projects = {
         "image": "img/item2.png",
         "github": "https://github.com/itsBosco/old-website-1",
         "link": "http://www.zahiersmith.com/old-website-1",
-        "alt": "Portfolio site"
-    }, {
-        "name": "Old Website",
-        "description": "A previous version of this site",
-        "image": "img/item1.png",
-        "github": "https://github.com/itsBosco/old-website-2",
-        "link": "http://www.zahiersmith.com/old-website-2",
         "alt": "Portfolio site"
     }]
 };
@@ -63,6 +79,15 @@ $(document).ready(function() {
                 '<h4>' + project2.name + '</h4><p>' + project2.description +
                 '</p><a class="button" href="' +
                 project2.link + '">Live Demo</a></div></div></div></a>');
+        });
+        projects.projects3.forEach(function(project3) {
+            $(".work-row3").append('<div class="four columns"><a href="' +
+                project3.link + '" target="_blank"><div tabindex="0" class="imgWrap"><img src="' +
+                project3.image + '" alt="' + project3.alt + '" /><div class="imgDescription"><a href="' + project3.github +
+                '" target="_blank"><i class="fa fa-github fa-2x"></i></a>' +
+                '<h4>' + project3.name + '</h4><p>' + project3.description +
+                '</p><a class="button" href="' +
+                project3.link + '">Live Demo</a></div></div></div></a>');
         });
     };
     projects.display();
