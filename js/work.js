@@ -4,7 +4,7 @@ var projects = {
         "description": "Project built using knockoutjs, Google Maps API and flickr API. The listview and markers on the map update as the user filters the locations.",
         "image": "img/map.png",
         "github": "https://github.com/itsBosco/neighborhood-map",
-        "link": "http://www.zahiersmith.com/neighborhood-map",
+        "link": "http://itsbosco.github.io/neighborhood-map",
         "alt": "Neighborhood map project"
     }, {
         "name": "Restaurant Reviews",
@@ -26,7 +26,7 @@ var projects = {
         "description": "Simple project build to learn more about the Twitch API.",
         "image": "img/twitch.png",
         "github": "https://github.com/itsBosco/twitch-featured",
-        "link": "http://zahiersmith.com/twitch-featured/",
+        "link": "http://itsbosco.github.io/twitch-featured/",
         "alt": "Featured Twitch Streams"
 
     }, {
@@ -41,7 +41,7 @@ var projects = {
         "description": "A previous version of this site",
         "image": "img/item1.png",
         "github": "https://github.com/itsBosco/old-website-2",
-        "link": "http://www.zahiersmith.com/old-website-2",
+        "link": "http://itsbosco.github.io/old-website-2",
         "alt": "Portfolio site"
     }],
     "projects3": [{
@@ -49,14 +49,14 @@ var projects = {
         "description": "The classic game built using JavaScript/jQuery",
         "image": "img/tictac.png",
         "github": "https://github.com/itsBosco/tictactoe",
-        "link": "http://www.zahiersmith.com/tictactoe",
+        "link": "http://itsbosco.github.io/tictactoe",
         "alt": "tic-tac-toe game"
     }, {
         "name": "Old Website",
         "description": "A previous version of this site",
         "image": "img/item2.png",
         "github": "https://github.com/itsBosco/old-website-1",
-        "link": "http://www.zahiersmith.com/old-website-1",
+        "link": "http://itsbosco.github.io/old-website-1",
         "alt": "Portfolio site"
     }]
 };
