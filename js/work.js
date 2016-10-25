@@ -1,5 +1,27 @@
 var projects = {
     "projects": [{
+        "name": "Coffee Shop Locator",
+        "description": "Built a website that uses a mix of the skills I have learned so far, including AngularJS, Responsive Design, Accessibility, and Offline Functionality.",
+        "image": "img/coffee.png",
+        "github": "https://github.com/itsBosco/coffee-locator",
+        "link": "https://itsbosco.github.io/coffee-locator/",
+        "alt": "Coffee Shop Locator"
+    }, {
+        "name": "Corporate Dashboard",
+        "description": "Built a corporate dashboard application including multiple views using the Angular JavaScript framework",
+        "image": "img/corporate.png",
+        "github": "https://github.com/itsBosco/corporate-dashboard",
+        "link": "https://itsbosco.github.io/corporate-dashboard/",
+        "alt": "Corporate Dashboard"
+    }, {
+        "name": "Transportation App",
+        "description": "Website that uses the Caltrain API to get departure and arrival times of train stations. Implemented a service worker to practice offline first functionality.",
+        "image": "img/caltrain.png",
+        "github": "https://github.com/itsBosco/transportation-app",
+        "link": "https://itsbosco.github.io/transportation-app/",
+        "alt": "Transportation App"
+    }],
+    "projects2": [{
         "name": "Neighborhood Map",
         "description": "Project built using knockoutjs, Google Maps API and flickr API. The listview and markers on the map update as the user filters the locations.",
         "image": "img/map.png",
@@ -21,7 +43,7 @@ var projects = {
         "link": "#",
         "alt": "Event Planner"
     }],
-    "projects2": [{
+    "projects3": [{
         "name": "Twitch Featured Streams",
         "description": "Simple project build to learn more about the Twitch API.",
         "image": "img/twitch.png",
@@ -44,7 +66,7 @@ var projects = {
         "link": "http://itsbosco.github.io/old-website-2",
         "alt": "Portfolio site"
     }],
-    "projects3": [{
+    "projects4": [{
         "name": "Tic-Tac-Toe",
         "description": "The classic game built using JavaScript/jQuery",
         "image": "img/tictac.png",
@@ -88,6 +110,15 @@ $(document).ready(function() {
                 '<h4>' + project3.name + '</h4><p>' + project3.description +
                 '</p><a class="button" href="' +
                 project3.link + '">Live Demo</a></div></div></div></a>');
+        });
+        projects.projects4.forEach(function(project4) {
+            $(".work-row4").append('<div class="four columns"><a href="' +
+                project4.link + '" target="_blank"><div tabindex="0" class="imgWrap"><img src="' +
+                project4.image + '" alt="' + project4.alt + '" /><div class="imgDescription"><a href="' + project4.github +
+                '" target="_blank"><i class="fa fa-github fa-2x"></i></a>' +
+                '<h4>' + project4.name + '</h4><p>' + project4.description +
+                '</p><a class="button" href="' +
+                project4.link + '">Live Demo</a></div></div></div></a>');
         });
     };
     projects.display();
