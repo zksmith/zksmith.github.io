@@ -80,6 +80,13 @@ var projects = {
         "github": "https://github.com/itsBosco/old-website-1",
         "link": "http://itsbosco.github.io/old-website-1",
         "alt": "Portfolio site"
+    }, {
+        "name": "Walker's Coffee and Pub",
+        "description": "Redesign of a local coffee shops website. <a href='http://www.walkerscoffee.com'>Original Site</a>",
+        "image": "img/walkers.png",
+        "github": "https://github.com/itsBosco/walkers-coffee",
+        "link": "https://itsbosco.github.io/walkers-coffee/",
+        "alt": "Walkerps Coffee and Pub"
     }]
 };
 
