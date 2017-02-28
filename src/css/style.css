@@ -120,6 +120,7 @@ header p{
 }
 
 .info-text{
+    letter-spacing: 1px;
     width: 50%;
     float: left;
     text-align: center;
