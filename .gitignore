@@ -1,6 +1,1 @@
 node_modules
-package.json
-gruntfile.js
-.sass-cache
-dist/css/style.min.css.map
-CNAME

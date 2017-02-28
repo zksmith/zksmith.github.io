@@ -1,0 +1,44 @@
+{
+    "projects": [
+        {
+            "name": "TWITCH STREAM VIEWER",
+            "img": "./public/img/twitch-viewer.jpg",
+            "description": "Built a web app to browse and watch live streams from Twitch.tv. Uses the Twitch.tv API, AngularJS, and Electron.",
+            "repo": "https://github.com/itsBosco/twitch-app",
+            "demo": "https://itsbosco.github.io/twitch-app",
+            "category": "Web Application"
+        },
+        {
+            "name": "NETFLIX SEARCH",
+            "img": "./public/img/netflix-search.jpg",
+            "description": "Built a web app to search Netflix for a specific show, actor, or director. Built using the Netflix Roulette API, React, and Axios",
+            "repo": "https://github.com/itsBosco/netflix-search",
+            "demo": "",
+            "category": "Web Application"
+        },
+        {
+            "name": "PRACTICE KANA",
+            "img": "./public/img/practice-kana.jpg",
+            "description": "Web app to practice the japanese syllabic writing system known as kana. Built using AngularJS.",
+            "repo": "https://github.com/itsBosco/kana-practice",
+            "demo": "https://itsbosco.github.io/kana-practice/",
+            "category": "Web Application"
+        },
+        {
+            "name": "COFFEE LOCATOR",
+            "img": "./public/img/coffee-locator.jpg",
+            "description": "Developed a website that locates coffee shops in the user's location. Uses AngularJS.",
+            "repo": "https://github.com/itsBosco/coffee-locator",
+            "demo": "https://itsbosco.github.io/coffee-locator/",
+            "category": "Web Application"
+        },
+        {
+            "name": "WALKERS COFFEE",
+            "img": "./public/img/walkers-coffee.jpg",
+            "description": "Redesign of a local coffee shop's website.",
+            "repo": "",
+            "demo": "https://itsbosco.github.io/walkers-coffee/",
+            "category": "Website Redesign"
+        }
+    ]
+}
