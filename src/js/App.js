@@ -18,6 +18,7 @@ var App = React.createClass({
         this.setState({currentProject: clickedProject});
         this.hideInfo(false);
         this.grayOutProjects(this.state.currentProject);
+        window.scrollTo(0, 0);
     },
     hideInfo (boolean) {
         this.setState({infoClassNames: classNames({
