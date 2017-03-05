@@ -49,7 +49,7 @@ header p{
     display:block;
     position: relative;
     max-width:300px;
-    margin: .5rem;
+    margin: 1rem;
     cursor: pointer;
     overflow: hidden;
 }
