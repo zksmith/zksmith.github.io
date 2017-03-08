@@ -39,6 +39,14 @@
             "repo": "",
             "demo": "https://itsbosco.github.io/walkers-coffee/",
             "category": "Website Redesign"
+        },
+        {
+            "name": "CORPORATE DASHBOARD",
+            "img": "./public/img/corporate-dashboard.jpg",
+            "description": "Web application that contains defferent views replecating a company dashboard. Built using AngularJS.",
+            "repo": "https://github.com/itsBosco/corporate-dashboard",
+            "demo": "https://itsbosco.github.io/corporate-dashboard/",
+            "category": "Web Application"
         }
     ]
 }
