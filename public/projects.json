@@ -25,6 +25,14 @@
             "category": "Web Application"
         },
         {
+            "name": "WEATHER APP",
+            "img": "./public/img/weather-app.jpg",
+            "description": "Developed a web app that shows the weather for five European countries. User can view the current forecast and the 24 hour forecast. Built using AngularJS.",
+            "repo": "https://github.com/itsBosco/weather-app",
+            "demo": "http://www.zahiersmith.com/weather-app/",
+            "category": "Web Application"
+        },
+        {
             "name": "COFFEE LOCATOR",
             "img": "./public/img/coffee-locator.jpg",
             "description": "Developed a website that locates coffee shops in the user's location. Uses AngularJS.",
