@@ -1,6 +1,14 @@
 {
     "projects": [
         {
+            "name": "NYTIMES NEWS",
+            "img": "./public/img/nytimes-news.jpg",
+            "description": "Created a web application that allows the user to look through the top news stories for defferent categories. Built using Angular 2 and the NYTimes API.",
+            "repo": "https://github.com/itsBosco/nytimes-news",
+            "demo": "https://itsbosco.github.io/nytimes-news",
+            "category": "Web Application"
+        },
+        {
             "name": "TWITCH STREAM VIEWER",
             "img": "./public/img/twitch-viewer.jpg",
             "description": "Built a web app to browse and watch live streams from Twitch.tv. Uses the Twitch.tv API, AngularJS, and Electron.",
