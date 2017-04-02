@@ -21,7 +21,7 @@
             "img": "./public/img/netflix-search.jpg",
             "description": "Built a web app to search Netflix for a specific show, actor, or director. Built using the Netflix Roulette API, React, and Axios",
             "repo": "https://github.com/itsBosco/netflix-search",
-            "demo": "",
+            "demo": "http://www.zahiersmith.com/netflix-search/#/",
             "category": "Web Application"
         },
         {
