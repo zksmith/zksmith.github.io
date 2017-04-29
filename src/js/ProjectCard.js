@@ -4,7 +4,7 @@ import classNames from 'classnames';
 var ProjectCard = React.createClass({
     render () {
         return (
-            <div tabIndex = "1"
+            <div tabIndex = "-1"
             className={this.props.classNames}
             onClick={() => this.props.handleClick(this.props.project)}>
                 <img src={this.props.project.img}></img>
