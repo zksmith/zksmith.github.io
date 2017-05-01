@@ -7,7 +7,7 @@ var ProjectCard = React.createClass({
             <div tabIndex = "0"
             className={this.props.classNames}
             onClick={() => this.props.handleClick(this.props.project)}>
-                <img src={this.props.project.img}></img>
+                <img src={this.props.project.img} alt={this.props.project.name}></img>
                 <span className="card-overlay"></span>
                 <span className="card-text">
                     <p>{this.props.project.name}</p>
