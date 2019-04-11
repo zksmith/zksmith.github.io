@@ -1,5 +1,3 @@
-# itsBosco.github.io
 
-Personal website to showcase my latest projects.
-
+Personal website
 www.zahiersmith.com
