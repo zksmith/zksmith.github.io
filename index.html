@@ -22,7 +22,7 @@
     <header>
       <a href="#" style="float: left;">
         <h1><span class="light-text">ZAHIER</span> SMITH</h1>
-        <p>FRONT-END WEB DEVELOPER</p>
+        <p class="nav-subhead">WEB DEVELOPER</p>
       </a>
 
       <span class="right-icons">
@@ -167,5 +167,15 @@
         </div>
       </section>
     </main>
+    <script src="https://cdn.jsdelivr.net/npm/baffle@0.3.6/dist/baffle.min.js"></script>
+    <script type="text/javascript">
+      const text = baffle('.nav-subhead');
+      text.set({
+        characters: '█▒░ ░░█>█ ▓<▓/░ ░▒▓ ░<▓▓/ >█<▒ ░▓█ ▓░▓█ █/<▓',
+        speed: 120
+      });
+      text.start();
+      text.reveal(2000);
+    </script>
   </body>
 </html>
